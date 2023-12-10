@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { Post } from './posts/post.model';
 
 @Component({
   selector: 'app-root',
@@ -7,9 +6,8 @@ import { Post } from './posts/post.model';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  storedPosts: any[] = [];
-  
-  onPostAdded(post: any[]){
-    this.storedPosts.push(post);
+  title(title: any) {
+    throw new Error('Method not implemented.');
   }
+ 
 }

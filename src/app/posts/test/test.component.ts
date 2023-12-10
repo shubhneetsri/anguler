@@ -4,12 +4,12 @@ import { NgForm } from "@angular/forms";
 import { PostsService } from "../post.service";
 
 @Component({
-  selector: "app-post-create",
-  templateUrl: "./post-create.component.html",
-  styleUrls: ["./post-create.component.css"]
+  selector: "app-test",
+  templateUrl: "./test.component.html",
+  styleUrls: ["./test.component.css"]
 })
 
-export class PostCreateComponent {
+export class TestComponent {
 
   constructor(public postsService: PostsService){}
 
@@ -20,6 +20,5 @@ export class PostCreateComponent {
     }
     
     this.postsService.addPost(form.value.title, form.value.content);
-    form.reset();
   }
 }

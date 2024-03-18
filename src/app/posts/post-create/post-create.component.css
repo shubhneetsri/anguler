@@ -1,15 +1,4 @@
-
-
-mat-form-fiels,
-textarea{
-    width: 100%;
-}
-
-.mat-mdc-form-field {
-    width: 100%;
-}
-
-.mat-mdc-card-title, .mat-mdc-card-subtitle{
-    padding: 8px 17px;
-    color: white;
+mat-form-field,
+textarea {
+  width: 100%;
 }
